@@ -7,7 +7,7 @@ const Main = () => {
         <div className="card bg-dark text-white border-0 mx-3">
           <img
             className="card-img"
-            src="https://i.picsum.photos/id/353/1920/1080.jpg?hmac=n0nZKXMouKn3eIwf-dSCrClCTtBzRYXvutncrKJeIg8"
+            src="./assets/main.png.jpg"
             alt="Card"
             height={500}
           />
