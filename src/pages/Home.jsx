@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Main from "../components/Main"
 import Product from "../components/Products"
+import Footer from "../components/Footer"
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Navbar/>
       <Main />
       <Product />
+      <Footer/>
     </>
   )
 }

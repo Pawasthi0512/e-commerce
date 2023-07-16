@@ -1,9 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { useSelector } from "react-redux";
+
 const Cart = () => {
   const state = useSelector((state) => state.handleCart);
   console.log(state);
+
   const EmptyCart = () => {
     return (
       <div className="container">
@@ -107,7 +110,7 @@ const Cart = () => {
               </div>
               <div class="col-md-4">
                 <div class="card mb-4">
-                  <div class="card-header py-3 bg-white">
+                  <div class="card-header py-3 bg-light">
                     <h5 class="mb-0">Order Summary</h5>
                   </div>
                   <div class="card-body">
@@ -150,6 +153,7 @@ const Cart = () => {
         <hr />
         {state.length > 0 ? <ShowCart /> : <EmptyCart />}
       </div>
+      <Footer/>
     </>
   );
 };
