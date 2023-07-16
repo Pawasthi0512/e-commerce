@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
 import Main from "../components/Main"
-import Product from "../components/Product"
+import Product from "../components/Products"
 
 function Home() {
   return (
