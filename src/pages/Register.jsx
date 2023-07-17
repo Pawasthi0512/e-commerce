@@ -14,7 +14,7 @@ const Register = () => {
                 <div class="row my-4 h-100">
                     <div className="col-md-4 col-lg-4 col-sm-8 mx-auto">
                         <form>
-                            <div class="form- my-3">
+                            <div class="form my-3">
                                 <label for="Name">Full Name</label>
                                 <input
                                     type="email"
@@ -22,7 +22,7 @@ const Register = () => {
                                     id="Name"
                                 />
                             </div>
-                            <div class="form- my-3">
+                            <div class="form my-3">
                                 <label for="Email">Email address</label>
                                 <input
                                     type="email"
@@ -31,7 +31,7 @@ const Register = () => {
                                     placeholder="name@example.com"
                                 />
                             </div>
-                            <div class="form-  my-3">
+                            <div class="form  my-3">
                                 <label for="Password">Password</label>
                                 <input
                                     type="password"
