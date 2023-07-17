@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const state = useSelector((state) => state.handleCart);
@@ -132,9 +133,12 @@ const Cart = () => {
                       </li>
                     </ul>
 
-                    <button class="btn btn-dark btn-lg btn-block">
+                    <Link
+                      to="/checkout"
+                      className="btn btn-dark btn-lg btn-block"
+                    >
                       Go to checkout
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import Login from './pages/Login'
 import Cart from './pages/Cart'
+import Checkout from './pages/Checkout';
 import Register from './pages/Register';
 import PageNotFound from './pages/PageNotFound';
 
@@ -25,6 +26,7 @@ root.render(
       <Route path="/cart" element={<Cart />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/checkout" element={<Checkout />} />
       <Route path="*" element={<PageNotFound />} />
       <Route path="/products/*" element={<PageNotFound />} />
     </Routes>
