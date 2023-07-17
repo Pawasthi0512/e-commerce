@@ -12,7 +12,7 @@ import Login from './pages/Login'
 import Cart from './pages/Cart'
 import Checkout from './pages/Checkout';
 import Register from './pages/Register';
-import PageNotFound from './pages/PageNotFound';
+// import PageNotFound from './pages/PageNotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
